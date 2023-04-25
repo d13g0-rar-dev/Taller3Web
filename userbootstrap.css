@@ -1,16 +1,8 @@
-.form {
-    box-sizing: content-box;
-}
 
-.form-label {
-    margin-bottom: .5rem;
+html {
+    width: 25%;
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    margin: 15px;
   }
-
-select {
-    display: grid;
-    color: #dee2e6;
-    background-color: #343a40;
-    gap: .25rem;
-    padding: .5rem;
-    border-radius: .5rem;
-}
+  
