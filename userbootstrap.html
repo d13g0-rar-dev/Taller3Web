@@ -9,16 +9,16 @@
     <title>User Bootstrap</title>
 </head>
 <body>
-    <div class="form-horizontal">
-        <label for="idUsuario">Id Usuario</label>
-        <input type="tel" class="form-control" id="idUsuario">
-    </div>
-
-    <br>
-    
-    <div class="form-horizontal">
-        <label for="idPais">Id País</label>
-        <select name="idPais" id="idPais" class="form-select form-select-sm">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="idUsuario">Id Usuario</label>
+                <input type="tel" class="form-control" id="idUsuario">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="idPais">Id País</label>
+        <select name="idPais" id="idPais" class="form-select form-select-md">
             <option value="idPais">-Selecciona-</option>
             <option value="AF">Afganistán</option>
             <option value="AL">Albania</option>
@@ -255,6 +255,7 @@
             <option value="ZM">Zambia</option>
             <option value="ZW">Zimbabue</option>
         </select>
+        </div>
     </div>
     
     <br>
